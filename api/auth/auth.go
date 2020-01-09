@@ -44,6 +44,20 @@ func (ac authController) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+/**
+*	Device Registration?
+ */
+
+/**
+*	Base Registration
+ */
+func (ac *authController) register(w http.ResponseWriter, r *http.Request) {
+
+}
+
+/**
+*	Sign in using Username and Password
+ */
 func (ac *authController) signIn(w http.ResponseWriter, r *http.Request) {
 	var creds Credentials
 
